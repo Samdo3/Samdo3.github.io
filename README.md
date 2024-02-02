@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rounded&theme=tokyonight&height=150&text=SeongBeen's%20GitHub🧑‍💻&fontSize=60&animation=twinkling)
+![header](https://capsule-render.vercel.app/api?type=Cylinder&theme=tokyonight&height=150&text=SeongBeen's%20GitHub🧑‍💻&fontSize=60&animation=twinkling)
 
 
 <!--![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Samdo3&show_icons=true&theme=radical)-->
