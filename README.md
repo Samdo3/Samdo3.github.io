@@ -7,6 +7,11 @@
 <!--프로필 카드 표시-->
 <!--![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Samdo3&count_private=true&show_icons=true&theme=tokyonight)-->
 
+## My Skills
+<div style="display:flex; flex-direction:column; align-items:flex-start;">
+    <p><strong>Backend</strong></p>
+</div>
+
 <!--안드로이드 마크 표시-->
 <a href="" target="_blank"><img src="https://img.shields.io/badge/android-000000?style=for-the-badge&logo=android&logoColor=#34A853"/></a>
 
