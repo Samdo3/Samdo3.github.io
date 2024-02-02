@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Samdo3&show_icons=true&theme=radical)
+
 <a href="" target="_blank"><img src="https://img.shields.io/badge/android-000000?style=for-the-badge&logo=android&logoColor=#34A853"/></a>
 
 <!--
