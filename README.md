@@ -5,7 +5,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSamdo3&count_bg=%237EAEE5&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=GITHUB&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!--프로필 카드 표시-->
-<!--![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Samdo3&show_icons=true&theme=radical)-->
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Samdo3&count_private=true&show_icons=true&theme=tokyonight)
 
 <!--안드로이드 마크 표시-->
 <a href="" target="_blank"><img src="https://img.shields.io/badge/android-000000?style=for-the-badge&logo=android&logoColor=#34A853"/></a>
