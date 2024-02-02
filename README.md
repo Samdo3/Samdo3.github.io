@@ -6,10 +6,15 @@
 
 <!--프로필 카드 표시-->
 <!--![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Samdo3&count_private=true&show_icons=true&theme=tokyonight)-->
-
+#
 ## My Skills
 <div style="display:flex; flex-direction:column; align-items:flex-start;">
+    <p><strong>Frontend</strong></p>
+    <div>
+    </div>
     <p><strong>Backend</strong></p>
+    <div>
+    </div>
 </div>
 
 <!--안드로이드 마크 표시-->
