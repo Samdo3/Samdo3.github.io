@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+<a href="" target="_blank"><img src="https://img.shields.io/badge/Android-FFFFFF?style=for-the-badge&logo=#34A853&logoColor=000000"/></a>
+
 <!--
 **Samdo3/Samdo3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
