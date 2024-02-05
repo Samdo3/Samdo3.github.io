@@ -18,6 +18,8 @@
 <a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"></a>  
 > [(2023.11) KU_Sejong_Navigator](https://github.com/Samdo3/KU_Sejong_Navigator)
 
+<br>
+<br>
 ---
 
 
@@ -25,12 +27,16 @@
 ## ⭐ Tool
 <a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/androidstudio-000000?style=for-the-badge&logo=androidstudio&logoColor=3DDC84"/></a> <a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/pycharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/></a>
 
+<br>
+<br>
 ---
 
 
 ## 🌐 Contact
 <a href="" target="_blank"><img src="https://img.shields.io/badge/clcleh123@gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=FFFFFF"/></a>
 
+<br>
+<br>
 ---
 
 
