@@ -21,8 +21,8 @@
 
 
 ## ⭐ Tool
-<a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/flutter-000000?style=for-the-badge&logo=flutter&logoColor=02569B"/></a><details open> <summary>Projects</summary>
-  - [(2023.11) KU_Sejong_Navigator](https://github.com/Samdo3/KU_Sejong_Navigator) </details>
+<a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/flutter-000000?style=for-the-badge&logo=flutter&logoColor=02569B"/> <details open> <summary>Projects</summary>
+  - [(2023.11) KU_Sejong_Navigator](https://github.com/Samdo3/KU_Sejong_Navigator) </details> </a>
 
 
 
