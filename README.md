@@ -24,6 +24,7 @@
 <div style="display:flex; flex-direction:column; align-items:flex-start;">
     <p><strong>Frontend</strong></p>
     <div>
+        <a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/flutter-000000?style=for-the-badge&logo=flutter&logoColor=02569B"/></a>
     </div>
     <p><strong>Backend</strong></p>
     <div>
