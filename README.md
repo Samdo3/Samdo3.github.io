@@ -36,7 +36,7 @@
 
 
 ## 🌐 Contact
-<a href="" target="_blank"><img src="https://img.shields.io/badge/clcleh123@gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=FFFFFF"/></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/clcleh123@gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=FFFFFF"/></a> <a href="https://samdo3.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/samdo3-000000?style=for-the-badge&logo=tistory&logoColor=FFFFFF"/></a> 
 
 <br>
 <br>
