@@ -14,9 +14,7 @@
 #
 ## ✅ Tech Stack
 <!--파이썬 마크 표시-->
-<a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=#3776AB"/></a>
-<!--다트 마크 표시-->
-<a href="버튼을 눌렀을 때 이동할 링크" target="_blank"><img src="https://img.shields.io/badge/dart-000000?style=for-the-badge&logo=dart&logoColor=#0175C2"/></a>
+<a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=#3776AB"/></a> <a href="버튼을 눌렀을 때 이동할 링크" target="_blank"><img src="https://img.shields.io/badge/dart-000000?style=for-the-badge&logo=dart&logoColor=#0175C2"/></a>
 
 <div style="display:flex; flex-direction:column; align-items:flex-start;">
     <p><strong>Frontend</strong></p>
