@@ -27,7 +27,7 @@
 
 
 ## ⭐ Tool
-<a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/androidstudio-000000?style=for-the-badge&logo=androidstudio&logoColor=3DDC84"/></a> <a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/pycharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/></a> <a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/visualstudiocode-000000?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC"/></a>
+<a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/androidstudio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white"/></a> <a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/pycharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/></a> <a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/></a>
 
 <br>
 <br>
