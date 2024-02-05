@@ -11,7 +11,6 @@
 <!--<a href="버튼을 눌렀을 때 이동할 링크" target="_blank"><img src="https://img.shields.io/badge/뱃지레이블-배경색?style=뱃지모양&logo=로고&logoColor=로고색상"/></a>-->
 
 
-#
 ## ✅ Tech Stack
 <!--파이썬 마크 표시-->
 <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=#3776AB"/></a> <a href="https://dart.dev/" target="_blank"><img src="https://img.shields.io/badge/dart-000000?style=for-the-badge&logo=dart&logoColor=#0175C2"/></a> <a href="" target="_blank"><img src="https://img.shields.io/badge/cplusplus-000000?style=for-the-badge&logo=cplusplus&logoColor=00599C"/></a>
@@ -21,18 +20,16 @@
 
 
 ## ⭐ Tool
-<a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/flutter-000000?style=for-the-badge&logo=flutter&logoColor=02569B"/></a> <details> <summary>Related Projects</summary>
+<a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=FFFFFF"/></a> <details> <summary>Related Projects</summary>
   > [(2023.11) KU_Sejong_Navigator](https://github.com/Samdo3/KU_Sejong_Navigator) </details>
 
-
-
-
+---
 
 
 ## 🌐 Contact
 <a href="" target="_blank"><img src="https://img.shields.io/badge/clcleh123@gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=FFFFFF"/></a>
 
-
+---
 
 
 
