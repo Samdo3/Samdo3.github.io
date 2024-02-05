@@ -14,10 +14,13 @@
 #
 ## ✅ Tech Stack
 <!--파이썬 마크 표시-->
-<a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=#3776AB"/></a> <a href="버튼을 눌렀을 때 이동할 링크" target="_blank"><img src="https://img.shields.io/badge/dart-000000?style=for-the-badge&logo=dart&logoColor=#0175C2"/></a>
+<a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=#3776AB"/></a> <a href="https://dart.dev/" target="_blank"><img src="https://img.shields.io/badge/dart-000000?style=for-the-badge&logo=dart&logoColor=#0175C2"/></a> <a href="" target="_blank"><img src="https://img.shields.io/badge/cplusplus-000000?style=for-the-badge&logo=cplusplus&logoColor=00599C"/></a>
 
 
-## ✅ Tool
+
+
+
+## ⭐ Tool
 <div style="display:flex; flex-direction:column; align-items:flex-start;">
     <p><strong>Frontend</strong></p>
     <div>
@@ -27,8 +30,16 @@
     </div>
 </div>
 
+
+
+
+
 ## 🌐 Contact
-<a href="버튼을 눌렀을 때 이동할 링크" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=FFFFFF"/></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/clcleh123@gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=FFFFFF"/></a>
+
+
+
+
 
 <!--
 **Samdo3/Samdo3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
