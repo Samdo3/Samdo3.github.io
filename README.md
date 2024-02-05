@@ -7,15 +7,16 @@
 <!--프로필 카드 표시-->
 <!--![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Samdo3&count_private=true&show_icons=true&theme=tokyonight)-->
 
-<!--프로필 카드 표시-->
+<!--버튼 표시-->
 <!--<a href="버튼을 눌렀을 때 이동할 링크" target="_blank"><img src="https://img.shields.io/badge/뱃지레이블-배경색?style=뱃지모양&logo=로고&logoColor=로고색상"/></a>-->
 
 
 #
 ## ✅ Tech Stack
 <!--파이썬 마크 표시-->
-<a href="버튼을 눌렀을 때 이동할 링크" target="_blank"><img src="https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=#3776AB"/></a>
-
+<a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=#3776AB"/></a>
+<!--다트 마크 표시-->
+<a href="버튼을 눌렀을 때 이동할 링크" target="_blank"><img src="https://img.shields.io/badge/dart-000000?style=for-the-badge&logo=dart&logoColor=#0175C2"/></a>
 
 <div style="display:flex; flex-direction:column; align-items:flex-start;">
     <p><strong>Frontend</strong></p>
