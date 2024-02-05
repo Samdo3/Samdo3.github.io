@@ -16,6 +16,8 @@
 <!--파이썬 마크 표시-->
 <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=#3776AB"/></a> <a href="버튼을 눌렀을 때 이동할 링크" target="_blank"><img src="https://img.shields.io/badge/dart-000000?style=for-the-badge&logo=dart&logoColor=#0175C2"/></a>
 
+
+## ✅ Tool
 <div style="display:flex; flex-direction:column; align-items:flex-start;">
     <p><strong>Frontend</strong></p>
     <div>
@@ -25,8 +27,8 @@
     </div>
 </div>
 
-<!--안드로이드 마크 표시-->
-<a href="" target="_blank"><img src="https://img.shields.io/badge/android-000000?style=for-the-badge&logo=android&logoColor=#34A853"/></a>
+## 🌐 Contact
+<a href="버튼을 눌렀을 때 이동할 링크" target="_blank"><img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=Gmail&logoColor=#EA4335"/></a>
 
 <!--
 **Samdo3/Samdo3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
