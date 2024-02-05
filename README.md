@@ -16,13 +16,13 @@
 <!--파이썬 마크 표시-->
 <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=#3776AB"/></a> <a href="https://dart.dev/" target="_blank"><img src="https://img.shields.io/badge/dart-000000?style=for-the-badge&logo=dart&logoColor=#0175C2"/></a> <a href="" target="_blank"><img src="https://img.shields.io/badge/cplusplus-000000?style=for-the-badge&logo=cplusplus&logoColor=00599C"/></a>
 
-
+---
 
 
 
 ## ⭐ Tool
-<a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/flutter-000000?style=for-the-badge&logo=flutter&logoColor=02569B"/></a>       
-
+#### Frontend
+<a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/flutter-000000?style=for-the-badge&logo=flutter&logoColor=02569B"/></a>
 - (2023.11) KU_Sejong_Navigator
 
 
