@@ -18,6 +18,9 @@
 <br>
 <a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"></a>  
 > Related Projects : [(2023.11) KU_Sejong_Navigator](https://github.com/Samdo3/KU_Sejong_Navigator)
+<br>
+<a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></a> 
+
 
 <br>
 <br>
