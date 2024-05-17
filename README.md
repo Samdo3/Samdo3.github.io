@@ -16,10 +16,10 @@
 <!--파이썬 마크 표시-->
 <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a> <a href="" target="_blank"><img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"></a>  
 <br>
-<a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"></a>  
+<a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"></a>      
 > Related Projects : [(2023.11) KU_Sejong_Navigator](https://github.com/Samdo3/KU_Sejong_Navigator)
 <br>
-<a href="" target="_blank"><img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></a> <a href="" target="_blank"><img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></a>   /   
+<a href="" target="_blank"><img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></a> <a href="" target="_blank"><img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></a>                 
 > Related Projects : [(2024.05) Instagram Portfolio](https://samdo3.github.io)
 <br>
 <br>
