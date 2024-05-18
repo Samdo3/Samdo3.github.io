@@ -1,0 +1,408 @@
+div,
+input,
+textarea {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+p,
+h4,
+h3,
+h2,
+h1,
+span {
+    transform: rotate(0.03deg);
+}
+
+.mobile-size-opacity{
+    display:block;
+}
+
+.pc-size-opacity{
+    display: none;
+}
+
+.port{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.port-navbar{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 100%;
+    border: 1px solid #262626;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.port-navbar-top{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.navbar_title{
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.port-navbar-middle{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.port-navbar-icon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+}
+
+.port-navbar-name{
+    display: none;
+}
+
+.port-navbar-icon>div{
+    height: 50px;
+}
+
+.port-navbar-name>div{
+    height: 50px;
+}
+
+.port-navbar-name p{
+    margin-bottom: 0px;
+    display: none;
+}
+
+
+.port-navbar-img>img{
+    width: 25px;
+    height: 25px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.port-navbar-bottom{
+    display: flex;
+    width: 100%;
+}
+
+.port-navbar-bottom>div{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.port-bg-outer{
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.port-bg{
+    background-color: black;
+    max-width: 940px;
+    width: 100%;
+    color: white;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.port-container{
+    width: 100%;
+    height: 30%;
+}
+
+.port-container-outer{
+    width: 100%;
+    height: 300px;
+}
+
+.port-container-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+    padding-top: 50px;
+    transition: all 1s;
+    transform-style: preserve-3d;  
+}
+
+.port-container-inner:hover{
+    transform: rotateY(180deg);
+}
+
+.port-container-front{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.port-container-back{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 40px;
+    transform: rotateY(180deg) rotateZ(10deg);
+    font-size: 20px;
+    background: radial-gradient(circle farthest-corner at 32% 106%,#ffe17d 0%,#ffcd69 10%,#fa9137 28%,#eb4141 42%,transparent 82%) , linear-gradient(135deg,#234bd7 12%,#c33cbe 58%);
+}
+
+.port-container-back p{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.port-container-card{
+    width: 100%;
+    margin-left: 0px;
+    padding: 20px;
+}
+
+.port-container-card>h1{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.port-tech{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    display: flex;
+}
+.port-tech>div{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.port-tech>div:hover{
+    animation-name: 뱃지흔들;
+    animation-duration: 1s;
+}
+
+@keyframes 뱃지흔들{
+    0%{
+        transform: rotateZ(10deg);
+    }
+    25%{
+        transform: rotateZ(-10deg);
+    }
+    50%{
+        transform: rotateZ(10deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+}
+
+.port-content{
+    width: 100%;
+    border-top: 1px solid #262626;
+}
+
+.port-content-navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.port-content-navbar>div{
+    margin-right: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.port-content-navbar button{
+    padding: 0;
+    border:none;
+    color:white;
+    background-color: black;
+}
+
+.port-content-navbar-active{
+    border-top: 1px solid white;
+}
+
+.port-content-main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.port-content-main>div{
+    position: relative;
+    border: 1px solid black;
+    width: 33.33%;
+    height: 309px;
+}
+
+.port-content-main img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: all 1s;
+}
+
+.port-content-main img:hover{
+    opacity: 1;
+}
+
+.port-content-title{
+    position: absolute;
+    top:20px;
+    left:20px;
+    font-size: 25px;
+    color: white;
+}
+
+.port-underbar{
+    width: 100%;
+    height: 80px;
+    padding-bottom: 20px;
+    color:white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.port-underbar-contact{
+    width: 100%;
+    height: 50%;
+    font-size: 15px;
+}
+
+.port-underbar-contact>a{
+    padding-right: 20px;
+    text-decoration-line: none;
+    color: #A8A8A8;
+}
+
+.port-underbar-madeby{
+    width: 100%;
+    height: 50%;
+    color: #A8A8A8;
+}
+
+@media screen and (min-width:1200px){
+    .mobile-size-opacity{
+        display: none;
+    }
+    
+    .pc-size-opacity{
+        display: block;
+    }
+    .port-navbar{
+        width: 300px;
+        text-align: start;
+        padding-left: 25px;
+    }
+
+    .port-navbar-icon{
+        width: 20%;
+    }
+
+    .port-navbar-name{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .port-navbar-name p{
+        display: block;
+    }
+
+    .port-container-outer{
+        width: 400px;
+        height: 300px;
+    }
+
+    .port-container-inner{
+        padding-left: 80px;
+        padding-top: 0px;
+    }
+    
+    .port-container-front{
+        width: 250px;
+        height: 250px;
+    }
+
+    .port-container-back{
+        width: 250px;
+        height: 250px;
+        padding-top: 70px;
+        font-size: 35px;
+    }
+    .port-container-card{
+        width: 50%;
+        margin-left: 80px;
+    }
+
+    .port-content-navbar{
+        height: 50px;
+    }
+
+    .port-content-navbar>div{
+        margin-right: 80px;
+    }
+}
+
+@media screen and (min-width:768px){
+    .port-container{
+        width: 100%;
+        height: 40%;
+        display: flex;
+    }
+
+    .port-container-outer{
+        width: 400px;
+        height: 300px;
+    }
+
+    .port-container-inner{
+        padding-left: 80px;
+        padding-top: 0px;
+    }
+
+    .port-container-card{
+        width: 50%;
+        margin-left: 80px;
+    }
+
+    .port-content-navbar{
+        height: 50px;
+    }
+
+    .port-content-navbar>div{
+        margin-right: 80px;
+    }
+}
