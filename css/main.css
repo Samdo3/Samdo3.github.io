@@ -33,6 +33,128 @@ span {
     display: none;
 }
 
+
+.modal-bg{
+    position: fixed;
+    z-index: 7;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.show-modal{
+    visibility: visible;
+    opacity: 1;
+  }
+
+.close-modal{
+    color: white;
+    font-size: 30px;
+    transform: translateX(-35px);
+    cursor: pointer;
+}
+
+.modal-box{
+    display: flex;
+    width: 1150px;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    overflow: hidden;
+    transform: scale(1.2);
+    transition: all 0.1s;
+}
+
+.modal-img{
+    width: 60%;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+.modal-img-slide{
+    flex: 1 0 100%;
+    transform: translateX(-0%);
+    position: relative;
+    transition: all 0.3s;
+}
+
+.modal-img-slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.left-button{
+    position: absolute;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    top:50%;
+    left: 2%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+}
+
+.right-button{
+    position: absolute;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    top:50%;
+    right: 2%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+}
+
+.modal-content{
+    width: 40%;
+}
+
+.modal-content-name{
+    width: 100%;
+    height: 50px;
+    padding-left:20px;
+    padding-top: 10px;
+}
+
+.modal-content-description{
+    width: 100%;
+    height: 700px;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #262626;
+    padding:20px;
+}
+
+.modal-content-comment{
+    width: 100%;
+    padding:20px;
+    display: flex;
+    gap:20px;
+    font-size: 25px;
+}
+
+.modal-content-move{
+    width: 100%;
+    text-align: end;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.modal-content-move button{
+    border: 0px solid transparent;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+}
+
+
 .port{
     width: 100%;
     height: 100%;
@@ -316,20 +438,40 @@ span {
     display: none;
     width: 100%;
     flex-direction: column;
-    text-align: center;
     margin-top: 20px;
+    text-align: center;
     position: relative;
 }
 
-.copy-confirmation{
-    display: none;
+.click-email{
+    position:relative;
+}
+.click-email:hover .copy-box{
+    opacity: 1;
+}
+
+.copy-box{
+    width: 200px;
     position: absolute;
-    top:-40%;
-    left: 63%;
-    background: #28a745;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
+    top:-0%;
+    left:50%;
+    transform: translate(-25%, -0%);
+    text-align: end;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+.copyCheck-box{
+    display: none;
+    width: 200px;
+    position: absolute;
+    top:-0%;
+    left:50%;
+    transform: translate(-25%, -0%);
+    text-align: end;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .showContent{
@@ -362,6 +504,38 @@ span {
     width: 100%;
     height: 50%;
     color: #A8A8A8;
+}
+
+@media screen and (min-width:768px){
+    .port-container{
+        width: 100%;
+        height: 40%;
+        display: flex;
+    }
+
+    .port-container-outer{
+        width: 400px;
+        height: 300px;
+    }
+
+    .port-container-inner{
+        padding-left: 80px;
+        padding-top: 0px;
+    }
+
+    .port-container-card{
+        width: 50%;
+        margin-left: 80px;
+    }
+
+    .port-content-navbar{
+        height: 50px;
+    }
+
+    .port-content-navbar>div{
+        margin-right: 80px;
+    }
+
 }
 
 @media screen and (min-width:1200px){
@@ -413,37 +587,6 @@ span {
         padding-top: 70px;
         font-size: 35px;
     }
-    .port-container-card{
-        width: 50%;
-        margin-left: 80px;
-    }
-
-    .port-content-navbar{
-        height: 50px;
-    }
-
-    .port-content-navbar>div{
-        margin-right: 80px;
-    }
-}
-
-@media screen and (min-width:768px){
-    .port-container{
-        width: 100%;
-        height: 40%;
-        display: flex;
-    }
-
-    .port-container-outer{
-        width: 400px;
-        height: 300px;
-    }
-
-    .port-container-inner{
-        padding-left: 80px;
-        padding-top: 0px;
-    }
-
     .port-container-card{
         width: 50%;
         margin-left: 80px;

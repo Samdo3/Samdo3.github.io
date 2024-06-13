@@ -14,8 +14,17 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+    <div class="modal-bg">
+        <div class="modal-box">
+            <!-- JSON data-->
+        </div>
+        <div class="close-modal"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+
+     <!-- Outline Box -->
     <div class="port">
-        <div class="port-navbar">
+        <!-- Left Navbar -->
+        <div class="port-navbar"> 
             <div class="port-navbar-top"><i class="fa-brands fa-instagram mobile-size-opacity"></i><p class="navbar_title pc-size-opacity">Portfolio</p></div>
             <div class="port-navbar-middle">
                 <div class="port-navbar-icon">
@@ -50,10 +59,15 @@
                 </div>
             </div>
         </div>
+        <!-- Left Navbar -->
 
+        <!-- Main Content -->
         <div class="port-bg-outer">
+            <!-- Main background -->
             <div class="port-bg">
+                <!-- Top Container -->
                 <div class="port-container">
+                    <!-- Profile Picture -->
                     <div class="port-container-outer">
                         <div class="port-container-inner">
                             <img src="img/id_picture.jpg" class="port-container-front">
@@ -63,36 +77,81 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Profile Picture -->
+                    <!-- Introduce Card -->
                     <div class="port-container-card">
                         <h3>I'm Newcomer Developer</h3>
                         <h1>"Park Seongbeen"</h1><br>
                         <p>I'll be a developer who can easily absorb new technologies like sponge🧽 and use them right away.</p>
-                        <a href="https://github.com/Samdo3/KU_Sejong_Navigator">• KU_Sejong_Navigator</a><p>( I Didn't know Flutter, but developed it using chatGPT )</p>
+                        <a href="https://github.com/Samdo3/KU_Sejong_Navigator">• KU_Sejong_Navigator</a><p>( Developed it using chatGPT and learned Flutter. )</p>
                     </div>
+                    <!-- Introduce Card -->
                 </div>
+                <!-- Top Container -->
+
+                <!-- Middle Container1 -->
                 <div class="port-tech row">
+                    <!-- Skill Icon -->
                     <div class="col-lg-3 col-sm-12"><img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"></div>
                     <div class="col-lg-3 col-sm-12"><img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"></div>
                     <div class="col-lg-3 col-sm-12"><img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"></div>
                     <div class="col-lg-3 col-sm-12"><img src="https://img.shields.io/badge/androidstudio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white"/></div>
-                    <div class="col-lg-3 col-sm-12"><img src="https://img.shields.io/badge/pycharm-ECD53F?style=for-the-badge&logo=pycharm&logoColor=black"/></div>
+                    <div class="col-lg-3 col-sm-12"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/></div>
                     <div class="col-lg-3 col-sm-12"><img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/></div>
                     <div class="col-lg-3 col-sm-12"><img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></div>
                     <div class="col-lg-3 col-sm-12"><img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></div>
+                    <!-- Skill Icon -->
                 </div>
+                <!-- Middle Container1 -->
+                <!-- Middle Container2 -->
                 <div class="port-content">
+                    <!-- Middle Navbar -->
                     <div class="port-content-navbar">
-                        <div class="port-content-navbar-active"><button><i class="fa-solid fa-table-cells"></i> Projects</button></div>
-                        <div><button><i class="fa-regular fa-image"></i> Gallery</button></div>
-                        <div><button><i class="fa-regular fa-circle-user"></i> Contact</button></div>
+                        <div class="port-content-navbar-active"><button class="navbar-button" data-id="0"><i class="fa-solid fa-table-cells" data-id="0"></i> Projects</button></div>
+                        <div><button class="navbar-button" data-id="1"><i class="fa-regular fa-circle-question" data-id="1"></i> Information</button></div>
+                        <div><button class="navbar-button" data-id="2"><i class="fa-regular fa-circle-user" data-id="2"></i> Contact</button></div>
                     </div>
+                    <!-- Middle Navbar -->
+                    <!-- Middle Contents -->
                     <div class="port-content-main">
-                        <div><a href="https://github.com/Samdo3/KU_Sejong_Navigator"><img src="img/project1.png"><p class="port-content-title">KU Sejong Navigator</p></a></div>
-                        <div><img src="img/empty_project.png"></div>
-                        <div><img src="img/empty_project.png"></div>
+                        <!-- Projects -->
+                        <div class="port-content-projects showContent">
+                            <!-- JSON data-->
+                        </div>
+                        <!-- Projects -->
+                        <!-- Information -->
+                        <div class="port-content-information">
+                            <div class="information-card" id="information-card-name">
+                                <h4>Name</h4>
+                                <!-- JSON data -->
+                            </div>
+                            <div class="information-card" id="information-card-education">
+                                <h4>Education</h4>
+                                <!-- JSON data -->
+                            </div>
+                            <div class="information-card" id="information-card-work">
+                                <h4>Work Experience</h4>
+                                <!-- JSON data -->
+                            </div>
+                        </div>
+                        <!-- Information -->
+                        <!-- Contact -->
+                        <div class="port-content-contact">
+                            <div class="click-email">
+                                <p><i class="fa-regular fa-envelope"></i>  Email : <span id="email"><!-- JSON data--></span></p>
+                                <div class="copy-box"><i class="fa-regular fa-copy"></i></div>
+                                <div class="copyCheck-box"><i class="fa-solid fa-check"></i></div>
+                            </div>
+                            <p>My Page :  <i class="fa-solid fa-arrow-down"></i></p>
+                        </div>
+                        <!-- Contact -->
                     </div>
+                    <!-- Middle Contents -->
                 </div>
+                <!-- Middle Container2 -->
             </div>
+            <!-- Main background -->
+            <!-- Underbar -->
             <div class="port-underbar">
                 <div class="port-underbar-contact">
                     <a href="https://github.com/Samdo3">Github</a>
@@ -100,9 +159,16 @@
                 </div>
                 <div class="port-underbar-madeby"><i class="fa-regular fa-copyright"></i> 2024 Seongbeen. Referenced from Instagram.</div>
             </div>
+             <!-- Underbar -->
         </div>
+        <!-- Main Content -->
     </div>
+    <!-- Outline Box -->
 
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
