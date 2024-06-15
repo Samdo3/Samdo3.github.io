@@ -43,6 +43,8 @@ span {
     display: flex;
     visibility: hidden;
     opacity: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .show-modal{
@@ -50,16 +52,39 @@ span {
     opacity: 1;
   }
 
+.modal-left-button{
+    transform: translate(2vw,0vh);
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    z-index: 10;
+}
+
+.modal-right-button{
+    transform: translate(90vw,0vh);
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    z-index: 10;
+}
+
 .close-modal{
     color: white;
     font-size: 30px;
-    transform: translateX(-35px);
+    transform: translate(-35px,-47vh);
     cursor: pointer;
 }
 
 .modal-box{
     display: flex;
-    width: 1150px;
+    width: 50%;
+    max-width: 1150px;
+    max-height: 95%;
+    height: 60vw;
     background: black;
     margin-left: auto;
     margin-right: auto;
@@ -72,7 +97,7 @@ span {
 }
 
 .modal-img{
-    width: 60%;
+    width: 100%;
     display: flex;
     overflow: hidden;
     flex-wrap: nowrap;
@@ -114,7 +139,7 @@ span {
 }
 
 .modal-content{
-    width: 40%;
+    width: 100%;
 }
 
 .modal-content-name{
@@ -139,6 +164,24 @@ span {
     gap:20px;
     font-size: 25px;
 }
+
+.comment-heart{
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.comment-heart:hover{
+    opacity: 0.5;
+}
+
+.comment-comment:hover{
+    opacity: 0.5;
+}
+
+.comment-plane:hover{
+    opacity: 0.5;
+}
+
 
 .modal-content-move{
     width: 100%;
@@ -382,6 +425,7 @@ span {
 
 .port-content-projects{
     width: 100%;
+    height: 100%;
     display: none;
     flex-wrap: wrap;
 }
@@ -390,7 +434,7 @@ span {
     position: relative;
     border: 1px solid black;
     width: 33.33%;
-    height: 309px;
+    aspect-ratio: 1 / 1;
 }
 
 .port-content-projects img{
@@ -408,7 +452,7 @@ span {
     position: absolute;
     top:20px;
     left:20px;
-    font-size: 25px;
+    font-size: 18px;
     color: white;
 }
 
@@ -507,6 +551,18 @@ span {
 }
 
 @media screen and (min-width:768px){
+    .modal-box{
+        width: 80%;
+        height: 50vw;
+    }
+    .modal-content{
+        width: 40%;
+    }
+
+    .modal-img{
+        width: 60%;
+    }
+
     .port-container{
         width: 100%;
         height: 40%;
@@ -535,6 +591,9 @@ span {
     .port-content-navbar>div{
         margin-right: 80px;
     }
+    .projects-title{
+        font-size:25px;
+    }
 
 }
 
@@ -546,6 +605,20 @@ span {
     .pc-size-opacity{
         display: block;
     }
+    
+    .modal-box{
+        width: 80%;
+        height: 50vw;
+    }
+
+    .modal-content{
+        width: 40%;
+    }
+
+    .modal-img{
+        width: 60%;
+    }
+
     .port-navbar{
         width: 300px;
         text-align: start;
