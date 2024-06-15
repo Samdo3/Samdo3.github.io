@@ -147,6 +147,7 @@ span {
     height: 50px;
     padding-left:20px;
     padding-top: 10px;
+    font-size: 18px;
 }
 
 .modal-content-description{
@@ -563,6 +564,10 @@ span {
         width: 60%;
     }
 
+    .modal-content-name{
+        font-size: 25px;
+    }
+
     .port-container{
         width: 100%;
         height: 40%;
@@ -617,6 +622,10 @@ span {
 
     .modal-img{
         width: 60%;
+    }
+
+    .modal-content-name{
+        font-size: 25px;
     }
 
     .port-navbar{

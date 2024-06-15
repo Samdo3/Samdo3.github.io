@@ -105,7 +105,7 @@ function modalAppend(projectNum){
     $('.modal-box').append(
          `<div class="modal-content">
             <div class="modal-content-name">
-                <h4>${project[projectNum].name}</h4>
+                <p>${project[projectNum].name}</p>
             </div>
             <div class="modal-content-description">
                 <p>${project[projectNum].description}</p>
